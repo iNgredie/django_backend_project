@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Occupation(models.Model):
     name = models.CharField(max_length=200)
     company_name = models.CharField(max_length=100)
